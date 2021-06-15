@@ -64,6 +64,7 @@ eg. plotng-client -hosts plotter1:8484,plotter2,plotter3:8485
         "MaxActivePlotPerTemp": 0,
         "MaxActivePlotPerPhase1": 0,
         "UseTargetForTmp2": false,
+        "IgnorePhase4": true,
         "BucketSize": 0,
         "SavePlotLogDir": "",
         "PlotSize": 32,
@@ -93,6 +94,7 @@ Please note for Windows, please use capital drive letter and '/'  eg.  "D:/temp"
 - MaxActivePlotPerTemp : Maximum active plots per temp directory (default: 0 - no limit)
 - MaxActivePlotPerPhase1 : Maximum active plots per Phase 1 (default: 0 - no limit)
 - UseTargetForTmp2 : use target directory for tmp2
+- IgnorePhase4: start next plot, after phase 3
 - BucketSize : specify custom busket size (default: 0 - use chia default)
 - SavePlotLogDir : saves plotting logs to this directory. logs are not saved if no directory is provided (default: "")
 - PlotSize : plot size, default to k32 is not set.  If set then it also pick sensible buffers for the given size.
